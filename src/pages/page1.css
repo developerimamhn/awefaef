@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Ganttlets';
+    src: url(./font//Ganttlets.ttf);
+    font-style: normal;
+}
+
+@layer utilities{
+    .StayLocalh2{
+        color: var(--PRIMARY, #D1FAE5);
+        font-family: 'Ganttlets';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        line-height: auto;
+    }
+    .StayLocalp{
+        color: var(--Foundation-Blue-B0, #FFF);
+        text-align: center;
+        font-family: 'Gellix700';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .BOOKNOW{
+        color: var(--PRIMARY, #D1FAE5);
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 4.266px;
+    }
+    .talking-newly{
+        color: #FFF;
+        font-family: 'Gellix700';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 31.995px */
+        opacity: 0.7;
+    }
+    .We-bring-the{
+        color: var(--Foundation-Blue-B0, #FFF);
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 49.27px */
+    }
+}

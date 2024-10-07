@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+
+    .mySwiper {
+        width: 100%;
+        padding: 20px;
+      }
+      
+      .review-slide {
+        display: flex;
+        justify-content: center;  /* Center each slide */
+        width: 100%;
+      }
+      
+      .review-card {
+        background-color: #1E1E1E;
+        color: white;
+        max-width: fit-content;  /* You can adjust this as needed */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        height: fit-content;  /* Let the height adjust to content */
+        
+        margin: 0 auto;  /* Additional margin auto to ensure centering */
+      }
+      
+      .review-text {
+        color: #FFF;
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 31.995px */
+      }
+      
+      .reviewer-info {
+        display: flex;
+        align-items: center;
+      }
+
+      .reviewer-info div h4{
+        color: #FFF;
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+      }
+
+      .reviewer-info div h4{
+        color: #FFF;
+        font-family: 'Gellix400';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+      
+      .reviewer-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      
+      .reviewer-info h4 {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      
+      .reviewer-info p {
+        margin: 0;
+        font-size: 0.875rem;
+        color: #cccccc;
+      }
+      
+      /* Responsive adjustments */
+      @media (max-width: 640px) {
+        .review-card {
+          max-width: 90%;
+        }
+      }
+      .great_revieone{
+        color: #FFF;
+
+        /* 50.52000045776367 */
+        font-family: 'Gellix700';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      
+      .great_revietwo{
+        color: #EBEBEB;
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+}

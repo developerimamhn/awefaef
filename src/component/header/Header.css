@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Gellix400';
+    src: url(../font/Gellix-Regular.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gellix500';
+    src: url(../font/Gellix-Medium.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gellix600';
+    src: url(../font/Gellix-Light.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gellix700';
+    src: url(../font/Gellix-Bold.ttf);
+    font-style: normal;
+}
+
+@layer utilities {
+    .headerbackground{
+        background-image: url(./image//Rectangle\ 1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .headerbgleayer{
+        background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 178.15%);
+    }
+    .nav-link{
+        color: #fff;
+        font-family: 'Gellix400';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+    }
+    .bookbutton{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 76px;
+        color: var(--BLACK, #000);
+        font-family: Gellix;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        transition: 0.2s;
+        font-family: 'Gellix500';
+    }
+
+    .bookbutton1{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 76px;
+        color: var(--BLACK, #000);
+        font-family: Gellix;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        transition: 0.2s;
+        font-family: 'Gellix500';
+    }
+    .Stay-Togather{
+        color: var(--Foundation-Blue-B0, #FFF);
+
+        /* 89.76000213623047 */
+        font-family: Gellix500;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .Forget-Hotels{
+        color: var(--Foundation-Blue-B0, #FFF);
+        font-family: 'Gellix400';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .date-header{
+        /* border: 1px solid rgba(250, 250, 250, 0.2); */
+        border-image: linear-gradient(75deg, #FFFFFF33 0%, #FFFFFF00 20%) 1;
+        border-width: 1px;
+        border-style: solid;
+        background: rgba(250, 216, 209, 0.10);
+        backdrop-filter: blur(25px);
+        position: relative;
+    }
+    .date-header::before{
+        content: '';
+        display: block;
+        border-image: linear-gradient(-75deg, #FFFFFF33 0%, #FFFFFF00 20%) 1;
+        border-width: 1px;
+        border-style: solid;
+        position: absolute;
+        right: -2px;
+        top: -1px;
+        width: 100%;
+        height: 102%;
+        padding: 1px
+    }
+    @media (max-width: 767px) {
+        .date-header::before {
+            content: '';
+            display: block;
+            border-image: linear-gradient(-75deg, #FFFFFF33 0%, #FFFFFF00 20%) 1;
+            border-width: 1px;
+            border-style: solid;
+            position: absolute;
+            right: -2px;
+            top: 1px;
+            width: 100%;
+            height: 100%;
+            padding: 1px;
+        }
+      }
+      
+    .CHECK-IN{
+        color: var(--Foundation-Blue-B0, #FFF);
+
+        /* 16 */
+        font-family: 'Gellix400';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        opacity: 0.6;
+    }
+    .march-date-header{
+        color: var(--Foundation-Blue-B0, #FFF);
+
+        /* 21.329999923706055 */
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .secendbuttonimageslll{
+        border-radius: 0px !important;
+        align-items: center !important;
+        letter-spacing: 3.6px !important;
+    }
+}

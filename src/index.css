@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer utilities{
+    .usclothing{
+        color: var(--Foundation-Blue-B0, #FFF);
+        font-family: 'Ganttlets';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: fit-content;
+        line-height: 120%;
+    }
+
+    .usclothingone{
+        color: var(--Foundation-Blue-B0, #FFF);
+        font-family: 'Gellix700';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .starytogetehrethree{
+        color: var(--Foundation-Blue-B0, #FFF);
+        font-family: 'Gellix400';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .usstaytogether{
+        background: rgba(30, 30, 30, 0.70);
+        backdrop-filter: blur(60px);
+    }
+
+    .vssection{
+        color: var(--BLACK, #000);
+        font-family: 'Gellix700';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    body{
+        background-color: #000;
+    }
 }

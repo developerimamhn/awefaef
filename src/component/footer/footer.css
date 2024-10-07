@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .footertalingbarp{
+        color: #FFF;
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 24px */
+        opacity: 0.9;
+    }
+    .aboutsectionataghead{
+        color: #FFF;
+        font-family: 'Gellix700';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 24px */
+        text-transform: uppercase;
+    }
+    .aboutsectionatagchield{
+        color: #FFF;
+        font-family: 'Gellix600';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 24px */
+    }
+    .copyrightsection{
+        color: #FFF;
+        text-align: center;
+
+        /* 16 */
+        font-family: 'Gellix400';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        opacity: 0.9;
+    }
+    .footerbackgroundleayer{
+        background: linear-gradient(180deg, #000 0%, rgba(1, 1, 1, 0.70) 100%);
+    }
+    .footerbackgroundimages{
+        background-image: url(./images/Rectangle\ 15.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
