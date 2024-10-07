@@ -6,5 +6,6 @@ export default function App() {
     <BrowserRouter>
       <Component/>
     </BrowserRouter>
+    
   )
 }

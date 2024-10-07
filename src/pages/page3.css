@@ -22,11 +22,16 @@
     }
     .booknew03{
         border-radius: 76px;
-        background: var(--PRIMARY, #D1FAE5);
+        background: #D1FAE5;
         color: var(--BLACK, #000);
         font-family: 'Gellix700';
         font-style: normal;
         font-weight: 700;
         line-height: 150%; /* 27px */
+        transition: 0.3s;
+    }
+    .booknew03:hover{
+        background: #000;
+        color: #D1FAE5;
     }
 }

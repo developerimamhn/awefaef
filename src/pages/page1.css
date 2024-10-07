@@ -26,14 +26,7 @@
         font-weight: 700;
         line-height: normal;
     }
-    .BOOKNOW{
-        color: var(--PRIMARY, #D1FAE5);
-        font-family: 'Gellix600';
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: 4.266px;
-    }
+
     .talking-newly{
         color: #FFF;
         font-family: 'Gellix700';

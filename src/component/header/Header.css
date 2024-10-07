@@ -43,6 +43,15 @@
         font-weight: 400;
         line-height: 150%; /* 24px */
     }
+
+    .nav-link:hover{
+        color: #ffffffb0;
+    }
+
+    .active-link{
+        color: #ffffffb0;
+    }
+
     .bookbutton{
         display: flex;
         align-items: flex-start;
