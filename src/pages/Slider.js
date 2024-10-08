@@ -78,6 +78,7 @@ const ImageSlider = () => {
             <img 
               src={reviews1.img} 
               alt={reviews1.img}
+              loading="lazy"
               className="w-full h-full object-cover"
             />
           </div>
