@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="footerbackgroundimages">
         <section className="footerbackgroundleayer sm:pt-[30px] lg:pt-[50px]">
-    <div className="container mx-auto px-[10px] sm:px-[0]">
+    <div className="container mx-auto px-[24px] sm:px-[0]">
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-5 gap-y-16 gap-x-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
                 <img className="w-[70px] sm:w-[80px] md:w-[90px] lg:w-[110px] xl:w-[130px] 2xl:w-[150px]" src={footerimagelog} alt="" />

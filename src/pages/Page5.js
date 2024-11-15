@@ -47,29 +47,29 @@ const reviews = [
   },
 ];
 
-const Page5 = () => {
+const Page5 = ({ className = '' }) => {
     return (
-        <div className="bg-[#000] ">
-        <div className='container mx-auto relative pb-[40px] sm:pb-[50px] md:pb-[60px] lg:pb-[80px] xl:pb-[100px] 2xl:pb-[120px]'>
-            <div className="flex justify-between items-center flex-col sm:flex-row mb-[15px] sm:mb-[32px] md:mb-[42px] lg:mb-[52px] xl:mb-[62px] 2xl:mb-[71px]">
-                <h2 className='review_cardsone flex items-center flex-row'><span className='text-[#fff] great_revieone text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[45px] 2xl:text-[50.52px] '>Guest Reviews</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className='inline ml-[15px] md:ml-[18px] lg:ml-[22px] xl:ml-[25px] 2xr:ml-[29px] mr-[10px] sm:mr-[13px] lg:mr-[17px] 2xl:mr-[20px]' width="33" height="33" viewBox="0 0 33 33" fill="none">
+        <div className={`bg-[#000] h-full w-full ${className}`}>
+        <div className=' container mx-auto relative pb-[40px] sm:pb-[50px] md:pb-[60px] lg:pb-[80px] xl:pb-[100px] 2xl:pb-[120px]'>
+            <div className="flex justify-center sm:justify-between items-center  flex-row mb-[15px] sm:mb-[32px] md:mb-[42px] lg:mb-[52px] xl:mb-[62px] 2xl:mb-[71px] gap-[20px]">
+                <h2 className='review_cardsone flex items-center flex-row'><span className='text-[#fff] great_revieone text-[18px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[45px] 2xl:text-[50.52px] '>Guest Reviews</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className='inline ml-[10px] md:ml-[18px] lg:ml-[22px] xl:ml-[25px] 2xr:ml-[29px] mr-[7px] sm:mr-[13px] lg:mr-[17px] 2xl:mr-[20px] w-[20px] sm:w-[33px]' viewBox="0 0 33 33" fill="none">
                 <path d="M15.5489 1.42705C15.8483 0.505742 17.1517 0.50574 17.4511 1.42705L20.6535 11.2832C20.7874 11.6952 21.1713 11.9742 21.6046 11.9742H31.9679C32.9366 11.9742 33.3394 13.2138 32.5557 13.7832L24.1716 19.8746C23.8211 20.1293 23.6744 20.5806 23.8083 20.9926L27.0108 30.8488C27.3101 31.7701 26.2556 32.5362 25.4719 31.9668L17.0878 25.8754C16.7373 25.6207 16.2627 25.6207 15.9122 25.8754L7.52809 31.9668C6.74437 32.5362 5.68989 31.7701 5.98924 30.8488L9.1917 20.9926C9.32557 20.5806 9.17891 20.1293 8.82842 19.8746L0.444297 13.7832C-0.339417 13.2138 0.0633578 11.9742 1.03208 11.9742H11.3954C11.8287 11.9742 12.2126 11.6952 12.3465 11.2832L15.5489 1.42705Z" fill="#D1FAE5"/>
                 </svg>
-                <span  className='great_revietwo text-[18px] sm:text-[22px] md:text-[26px] lg:text-[30px] xl:text-[34px] 2xl:text-[38.43px]'>4.93 (15 reviews)</span></h2>
+                <span  className='great_revietwo text-[18px] sm:text-[15px] md:text-[26px] lg:text-[30px] xl:text-[34px] 2xl:text-[38.43px]'>4.93 (15 reviews)</span></h2>
 
-            <div className="flex justify-center items-center gap-[10px] sm:gap-[12px] md:gap-[14px] lg:gap-[16px] xl:gap-[18px] 2xl:gap-[20px] mt-[50px] sm:mt-[0]">
-                <div className="custom-prev cursor-pointer border-[#d1fae521] hover:border-[#D1FAE5] transform flex justify-center items-center z-50 w-[40px] lg:w-[52px] 2xl:w-[62px] h-[40px] lg:h-[52px] 2xl:h-[62px] border-[1px] rounded-full duration-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" className=' w-[18px] sm:w-[20px] lg:w-[23px]'  viewBox="0 0 23 15" fill="none">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23 7.5C23 7.27902 22.9135 7.06709 22.7594 6.91083C22.6054 6.75457 22.3965 6.66678 22.1786 6.66678L2.80565 6.66678L7.97539 1.42419C8.12962 1.26773 8.21627 1.05553 8.21627 0.834269C8.21627 0.613007 8.12962 0.400808 7.97539 0.244352C7.82116 0.0878957 7.61197 2.81042e-07 7.39385 2.71508e-07C7.17574 2.61974e-07 6.96655 0.0878956 6.81232 0.244352L0.24131 6.91008C0.164818 6.98748 0.10413 7.07943 0.0627235 7.18066C0.021315 7.28188 3.32626e-07 7.3904 3.27835e-07 7.5C3.23045e-07 7.6096 0.0213149 7.71812 0.0627235 7.81934C0.10413 7.92057 0.164818 8.01252 0.24131 8.08992L6.81232 14.7556C6.96655 14.9121 7.17574 15 7.39385 15C7.61197 15 7.82116 14.9121 7.97539 14.7556C8.12962 14.5992 8.21627 14.387 8.21627 14.1657C8.21627 13.9445 8.12962 13.7323 7.97539 13.5758L2.80565 8.33322L22.1786 8.33322C22.3965 8.33322 22.6054 8.24543 22.7594 8.08917C22.9135 7.93291 23 7.72098 23 7.5Z" fill="#D1FAE5"/>
-                    </svg>
+                <div className="flex justify-center items-center gap-[10px] sm:gap-[12px] md:gap-[14px] lg:gap-[16px] xl:gap-[18px] 2xl:gap-[20px] ">
+                    <div className="custom-prev cursor-pointer border-[#d1fae521] hover:border-[#D1FAE5] transform flex justify-center items-center z-50 w-[30px] lg:w-[52px] 2xl:w-[62px] h-[30px] lg:h-[52px] 2xl:h-[62px] border-[1px] rounded-full duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" className=' w-[14px] sm:w-[20px] lg:w-[23px]'  viewBox="0 0 23 15" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23 7.5C23 7.27902 22.9135 7.06709 22.7594 6.91083C22.6054 6.75457 22.3965 6.66678 22.1786 6.66678L2.80565 6.66678L7.97539 1.42419C8.12962 1.26773 8.21627 1.05553 8.21627 0.834269C8.21627 0.613007 8.12962 0.400808 7.97539 0.244352C7.82116 0.0878957 7.61197 2.81042e-07 7.39385 2.71508e-07C7.17574 2.61974e-07 6.96655 0.0878956 6.81232 0.244352L0.24131 6.91008C0.164818 6.98748 0.10413 7.07943 0.0627235 7.18066C0.021315 7.28188 3.32626e-07 7.3904 3.27835e-07 7.5C3.23045e-07 7.6096 0.0213149 7.71812 0.0627235 7.81934C0.10413 7.92057 0.164818 8.01252 0.24131 8.08992L6.81232 14.7556C6.96655 14.9121 7.17574 15 7.39385 15C7.61197 15 7.82116 14.9121 7.97539 14.7556C8.12962 14.5992 8.21627 14.387 8.21627 14.1657C8.21627 13.9445 8.12962 13.7323 7.97539 13.5758L2.80565 8.33322L22.1786 8.33322C22.3965 8.33322 22.6054 8.24543 22.7594 8.08917C22.9135 7.93291 23 7.72098 23 7.5Z" fill="#D1FAE5"/>
+                        </svg>
+                    </div>
+                    <div className="custom-next cursor-pointer border-[#d1fae521] hover:border-[#D1FAE5]  transformz-50 flex justify-center items-center w-[30px] lg:w-[52px] 2xl:w-[62px] h-[30px] lg:h-[52px] 2xl:h-[62px] border-[1px] rounded-full duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" className=' w-[14px] sm:w-[20px] lg:w-[23px]' viewBox="0 0 23 15" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M-3.27835e-07 7.5C-3.37495e-07 7.27902 0.0865372 7.06709 0.240575 6.91083C0.394613 6.75457 0.603533 6.66678 0.821376 6.66678L20.1944 6.66678L15.0246 1.42419C14.8704 1.26773 14.7837 1.05553 14.7837 0.834269C14.7837 0.613007 14.8704 0.400808 15.0246 0.244352C15.1788 0.0878957 15.388 2.81042e-07 15.6061 2.71508e-07C15.8243 2.61974e-07 16.0334 0.0878956 16.1877 0.244352L22.7587 6.91008C22.8352 6.98748 22.8959 7.07943 22.9373 7.18066C22.9787 7.28188 23 7.3904 23 7.5C23 7.6096 22.9787 7.71812 22.9373 7.81934C22.8959 7.92057 22.8352 8.01252 22.7587 8.08992L16.1877 14.7556C16.0334 14.9121 15.8243 15 15.6061 15C15.388 15 15.1788 14.9121 15.0246 14.7556C14.8704 14.5992 14.7837 14.387 14.7837 14.1657C14.7837 13.9445 14.8704 13.7323 15.0246 13.5758L20.1944 8.33322L0.821376 8.33322C0.603533 8.33322 0.394613 8.24543 0.240575 8.08917C0.0865373 7.93291 -3.18176e-07 7.72098 -3.27835e-07 7.5Z" fill="#D1FAE5"/>
+                        </svg>
+                    </div>
                 </div>
-                <div className="custom-next cursor-pointer border-[#d1fae521] hover:border-[#D1FAE5]  transformz-50 flex justify-center items-center w-[40px] lg:w-[52px] 2xl:w-[62px] h-[40px] lg:h-[52px] 2xl:h-[62px] border-[1px] rounded-full duration-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" className=' w-[18px] sm:w-[20px] lg:w-[23px]' viewBox="0 0 23 15" fill="none">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M-3.27835e-07 7.5C-3.37495e-07 7.27902 0.0865372 7.06709 0.240575 6.91083C0.394613 6.75457 0.603533 6.66678 0.821376 6.66678L20.1944 6.66678L15.0246 1.42419C14.8704 1.26773 14.7837 1.05553 14.7837 0.834269C14.7837 0.613007 14.8704 0.400808 15.0246 0.244352C15.1788 0.0878957 15.388 2.81042e-07 15.6061 2.71508e-07C15.8243 2.61974e-07 16.0334 0.0878956 16.1877 0.244352L22.7587 6.91008C22.8352 6.98748 22.8959 7.07943 22.9373 7.18066C22.9787 7.28188 23 7.3904 23 7.5C23 7.6096 22.9787 7.71812 22.9373 7.81934C22.8959 7.92057 22.8352 8.01252 22.7587 8.08992L16.1877 14.7556C16.0334 14.9121 15.8243 15 15.6061 15C15.388 15 15.1788 14.9121 15.0246 14.7556C14.8704 14.5992 14.7837 14.387 14.7837 14.1657C14.7837 13.9445 14.8704 13.7323 15.0246 13.5758L20.1944 8.33322L0.821376 8.33322C0.603533 8.33322 0.394613 8.24543 0.240575 8.08917C0.0865373 7.93291 -3.18176e-07 7.72098 -3.27835e-07 7.5Z" fill="#D1FAE5"/>
-                    </svg>
-                </div>
-            </div>
         </div>
         <Swiper
         spaceBetween={30}

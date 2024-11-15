@@ -6,7 +6,7 @@ const About  = () => {
     return (
         <div className='bg-[#000]'>
             <div className="container mx-auto pt-[300px] sm:pt-[150px] md:pt-[220px] lg:pt-[250px] xl:pt-[320px] 2xl:pt-[337px]">
-                <div className="px-[10px] xl:px-0 flex flex-col sm:flex-row justify-between items-center gap-[30px] sm:gap-[17px] lg:gap-[27px] pb-[100px] sm:pb-[130px] md:pb-[160px] lg:pb-[190px] xl:pb-[115px] 2xl:pb-[231px]">
+                <div className="px-[24px] xl:px-0 flex flex-col sm:flex-row justify-between items-center gap-[30px] sm:gap-[17px] lg:gap-[27px] pb-[100px] sm:pb-[130px] md:pb-[160px] lg:pb-[190px] xl:pb-[115px] 2xl:pb-[231px]">
                     <div className="flex-1">
                         <span className="about_span relative text-[#D1FAE5] font-normal text-[14px] sm:text-[15.43px] md:text-[16.43px] lg:text-[20.43px] xl:text-[24.43px] 2xl:text-[28.43px] before:content-[''] before:block before:h-[1px] before:w-[35px] before:sm:w-[40px] before:md:w-[45px] before:lg:w-[50px] before:xl:w-[55px] before:2xl:w-[59px] before:absolute before:top-[50%] before:left-[-55px] before:sm:left-[-66px] before:md:left-[-65px] before:lg:left-[-70px] before:xl:left-[-75px] [-89px] before:2xl:left-[-89px] before:bg-white text-center ml-[55px] sm:ml-[66px] md:ml-[65px] lg:ml-[70px] xl:ml-[75px]  2xl:ml-[89px]">About us</span>
                         <h2 className='We-bring-the text-[18px] sm:text-[20px] md:text-[23px] lg:text-[28px] xl:text-[33px] 2xl:text-[37.9px] mt-[17] sm:mt-[18px] md:mt-[19px] lg:mt-[20px] xl:mt-[21px] 2xl:mt-[22px] '>Team of local Austinites with industry know-how and a knack for crafting a good-ass time.</h2>

@@ -74,7 +74,7 @@ const ImageSlider = () => {
         {/* Smaller Left Image */}
         {reviews1.map((reviews1, index) => (
         <SwiperSlide id={index}>
-          <div className="relative overflow-hidden pt-[20px] sm:pt-[25px] md:pt-[30px] lg:pt-[35px] xl:pt-[40px] 2xl:pt-[47px] pb-[50px] sm:pb-[70px] md:pb-[90px] lg:pb-[110px] xl:pb-[130px] 2xl:pb-[150px]" >
+          <div className=" px-[24px] sm:px-0 relative overflow-hidden pt-[20px] sm:pt-[25px] md:pt-[30px] lg:pt-[35px] xl:pt-[40px] 2xl:pt-[47px] pb-[50px] sm:pb-[70px] md:pb-[90px] lg:pb-[110px] xl:pb-[130px] 2xl:pb-[150px]" >
             <img 
               src={reviews1.img} 
               alt={reviews1.img}

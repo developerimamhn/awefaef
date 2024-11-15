@@ -41,7 +41,7 @@ const Page4 = () => {
   };
 
   return (
-    <div className="relative w-full max-w-full mx-auto bg-black pb-[90px] sm:pb-[110px] md:pb-[130px] lg:pb-[150px] xl:pb-[170px] 2xl:pb-[190px]">
+    <div className="px-[24px] sm:px-0 relative w-full max-w-full mx-auto bg-black pb-[90px] sm:pb-[110px] md:pb-[130px] lg:pb-[150px] xl:pb-[170px] 2xl:pb-[190px]">
        <div className="flex gap-[20px] justify-center items-center py-[30px] sm:py[40px] md:py-[50px] lg:py-[60px] xl:py-[70px] 2xl:py-[80px]">
           <h2 className='usclothing text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[45px] 2xl:text-[50.52px]'>UrbanStay</h2>
           <span className='usclothingone text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[45px] 2xl:text-[50.52px]'>vs</span>

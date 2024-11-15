@@ -130,9 +130,9 @@ const StayLocal = () => {
 </NavLink>
 
                 </div>
-                <div className="relative mt-[20px] sm:mt-[35px] md:mt-[40px] lg:mt-[70px] xl:mt-[80px] 2xl:mt-[88px]">
-                  <img className='w-full' src={stayImages} alt="" />
-                  <div className="bg-[rgba(30,30,30,0.97)] p-[20px] sm:p-[25px] md:p-[30px] lg:p-[35px] xl:p-[40px] 2xl:p-[50px] sm:w-[50%] absolute sm:bottom-[-80px] md:bottom-[-100px] lg:bottom-[-120px] xl:bottom-[-153.7px] sm:right-[40px] md:right-[60px] lg:right-[80px] xl:right-[100px]">
+                <div className=" relative mt-[20px] sm:mt-[35px] md:mt-[40px] lg:mt-[70px] xl:mt-[80px] 2xl:mt-[88px]">
+                  <img className='w-full px-[24px] sm:px-0' src={stayImages} alt="" />
+                  <div className="bg-[rgba(30,30,30,0.97)] mx-[24px] sm:mx-0 p-[20px] sm:p-[25px] md:p-[30px] lg:p-[35px] xl:p-[40px] 2xl:p-[50px] sm:w-[50%] absolute sm:bottom-[-80px] md:bottom-[-100px] lg:bottom-[-120px] xl:bottom-[-153.7px] sm:right-[40px] md:right-[60px] lg:right-[80px] xl:right-[100px]">
                     <h2 className='We-bring-the text-[18px] sm:text-[20px] md:text-[23px] lg:text-[28px] xl:text-[33px] 2xl:text-[37.9px]'>We bring the vibe. You bring the people. Let’s do this right.</h2>
                     <p className='talking-newly text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] 2xl:text-[21.33px] mt-[14px] sm:mt-[14px] md:mt-[18px] lg:mt-[22px] xl:mt-[26px] 2xl:mt-[30px]'>We’re talking newly built homes, urban-chic vibes with equal parts comfort and Instagrammability. Steps away from quirky restaurants, decidedly offbeat bars, and live music venues. Experience Austin like a local.</p>
                     <button className='flex justify-center items-center gap-[20px] sm:gap-[22px] md:gap-[24px] lg:gap-[26px] xl:gap-[28px] 2xl:gap-[30px] BOOKNOW text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] 2xl:text-[21.33px] 2xl:mt-[79px] xl:mt-[68px] lg:mt-[58px] md:mt-[48px] sm:mt-[38px] mt-[28px] relative'>BOOK NOW 

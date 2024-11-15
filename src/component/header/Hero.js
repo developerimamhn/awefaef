@@ -37,7 +37,7 @@ const Hero = () => {
   const [toggle, setToggle] = useState(true)
     return (
         <div className="">
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center pt-[110px] sm:pt-[140px] md:pt-[160px] lg:pt-[190px] xl:pt-[230px] 2xl:pt-[260px]'>
             <h2 className="font-Gellix700 text-[#fff] Stay-Togather text-[30px] sm:text-[38px] md:text-[45px] lg:text-[60px] xl:text-[75px] 2xl:text-[89.76px] pb-[15px] sm:pb-[17px] md:pb-[19px] lg:pb-[21px] xl:pb-[23px] 2xl:pb-[25px]">Stay Togather</h2>
             <p className='Forget-Hotels text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28.43px] pb-[20px] sm:pb-[25px] md:pb-[30px] lg:pb-[35px] xl:pb-[46px] 2xl:pb-[50px]'>Forget Hotels, Stay Locals</p>
             <div className="date-header1 mb-[50px] sm:mb-[70px] md:mb-[90px] lg:mb-[120px] xl:mb-[140px] 2xl:mb-[166px]">

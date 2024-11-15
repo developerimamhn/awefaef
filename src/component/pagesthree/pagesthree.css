@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .We_partner_real{
+        font-family: 'Gellix600';
+        font-weight: 600;
+        line-height: 31.99px;
+        text-align: left;
+        color: #fff;
+        opacity: 0.9;
+    }
+      
+}
